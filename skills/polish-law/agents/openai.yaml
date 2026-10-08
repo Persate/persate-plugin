@@ -1,0 +1,4 @@
+interface:
+  display_name: "Polish law"
+  short_description: "Find and read Polish legal acts"
+  default_prompt: "Which act regulates electronic communications in Poland, and what is its current consolidated text?"

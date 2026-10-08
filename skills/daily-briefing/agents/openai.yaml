@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daily briefing"
+  short_description: "Today in Polish politics and law"
+  default_prompt: "Give me today's briefing on the Sejm, new laws and my alerts."

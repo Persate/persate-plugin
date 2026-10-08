@@ -1,0 +1,4 @@
+interface:
+  display_name: "Connect Persate"
+  short_description: "Connect and check Persate access"
+  default_prompt: "Which Persate tools can this connection use?"

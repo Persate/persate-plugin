@@ -1,0 +1,20 @@
+{
+  "name": "persate",
+  "displayName": "Persate",
+  "version": "0.2.2",
+  "description": "Enterprise legislative intelligence for Polish public affairs: research legislation, search your workspace and manage permitted Persate account actions.",
+  "author": {
+    "name": "Persate",
+    "email": "mbednarczyk@persate.com",
+    "url": "https://persate.com"
+  },
+  "homepage": "https://persate.com",
+  "license": "Proprietary",
+  "keywords": [
+    "legislation",
+    "public-affairs",
+    "parliament",
+    "poland",
+    "research"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Legislative tracker"
+  short_description: "Follow a bill from draft to publication"
+  default_prompt: "Where is the newest government draft on renewable energy in the legislative process?"

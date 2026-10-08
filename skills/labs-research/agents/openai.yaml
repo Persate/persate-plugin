@@ -1,0 +1,4 @@
+interface:
+  display_name: "Labs research"
+  short_description: "Explore your organization's Labs"
+  default_prompt: "Which Labs can I use, and what does the current release cover?"

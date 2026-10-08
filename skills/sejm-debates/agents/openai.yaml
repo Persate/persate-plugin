@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sejm debates"
+  short_description: "What was said in the Sejm and committees"
+  default_prompt: "What was said in the Sejm about the defence budget this week? Quote the key statements."

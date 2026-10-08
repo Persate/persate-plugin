@@ -1,0 +1,4 @@
+interface:
+  display_name: "Account settings"
+  short_description: "Preferences and notifications"
+  default_prompt: "Show my unread Persate notifications."

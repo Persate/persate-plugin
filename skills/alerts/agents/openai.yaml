@@ -1,0 +1,4 @@
+interface:
+  display_name: "Alerts"
+  short_description: "Review and manage Persate alerts"
+  default_prompt: "What did my Persate alerts catch this week?"

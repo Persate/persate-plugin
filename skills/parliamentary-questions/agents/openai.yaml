@@ -1,0 +1,4 @@
+interface:
+  display_name: "Parliamentary questions"
+  short_description: "Interpellations and government replies"
+  default_prompt: "What did MPs ask the Ministry of Health about drug shortages, and how did it reply?"

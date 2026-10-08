@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workspace documents"
+  short_description: "Search and read your organization's files"
+  default_prompt: "Find our internal documents about the consultation deadline."

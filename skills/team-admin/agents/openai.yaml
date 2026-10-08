@@ -1,0 +1,4 @@
+interface:
+  display_name: "Team administration"
+  short_description: "Members, groups and invitations"
+  default_prompt: "List the members and pending invitations in our workspace."

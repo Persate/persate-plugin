@@ -1,0 +1,4 @@
+interface:
+  display_name: "Issue dossier"
+  short_description: "Source-backed brief on a policy issue"
+  default_prompt: "Prepare an issue brief on the regulation of short-term rentals in Poland."

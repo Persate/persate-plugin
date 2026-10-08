@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stakeholder dossier"
+  short_description: "Profile a politician or institution"
+  default_prompt: "Prepare a short profile of the Minister of Digital Affairs and their recent activity."

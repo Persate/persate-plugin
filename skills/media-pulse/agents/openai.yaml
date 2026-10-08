@@ -1,0 +1,4 @@
+interface:
+  display_name: "Media pulse"
+  short_description: "What public figures post on X"
+  default_prompt: "What are politicians posting on X about the housing programme this week?"

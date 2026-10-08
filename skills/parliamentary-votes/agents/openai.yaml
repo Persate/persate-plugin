@@ -1,0 +1,4 @@
+interface:
+  display_name: "Parliamentary votes"
+  short_description: "Sejm and Senate votes by club and MP"
+  default_prompt: "How did the parliamentary clubs vote on energy price bills in this Sejm term?"

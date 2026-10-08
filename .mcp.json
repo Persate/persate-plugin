@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "persate": {
+      "type": "http",
+      "url": "https://api.persate.com/mcp"
+    }
+  }
+}
