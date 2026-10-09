@@ -1,6 +1,6 @@
 ---
 name: polish-law
-description: Find and read Polish legal acts, current or historical, such as ustawy, rozporządzenia and obwieszczenia in Dziennik Ustaw, Monitor Polski and voivodeship journals, with their consolidated text (tekst jednolity), amendment history, implementing regulations, citations and Constitutional Tribunal rulings. Use when the user asks what the law says, which act regulates a subject, what changed in an act or what its legal basis is, in English or Polish ("jaka ustawa reguluje", "nowelizacja", "tekst jednolity", "akty wykonawcze").
+description: Find and read Polish legal acts, current or historical, such as ustawy, rozporządzenia and obwieszczenia in Dziennik Ustaw, Monitor Polski and ministry journals, with their consolidated text (tekst jednolity), amendment history, implementing regulations, citations and Constitutional Tribunal rulings. Use when the user asks what the law says, which act regulates a subject, what changed in an act or what its legal basis is, in English or Polish ("jaka ustawa reguluje", "nowelizacja", "tekst jednolity", "akty wykonawcze").
 ---
 
 # Polish law
@@ -8,7 +8,7 @@ description: Find and read Polish legal acts, current or historical, such as ust
 ## Find the act
 
 1. Search with `legislation_search_acts` using Polish legal terms; translate the user's wording first and add the act type, for example "ustawa o ...". Results carry ELIs such as `DU/2026/468`.
-2. When the user names an issuing body, topic or place, resolve it first: `legislation_acts_by_issuing_org` (for example "MIN. ZDROWIA"); `legislation_search_organizations` then `legislation_find_acts_by_organization`; `legislation_search_keywords` then `legislation_find_acts_by_keyword`; a TERYT code with `legislation_find_acts_by_place` (national acts) or `legislation_acts_for_place` (voivodeship journals). Municipal law is not in the corpus.
+2. When the user names an issuing body, topic or place, resolve it first: `legislation_acts_by_issuing_org` (for example "MIN. ZDROWIA"); `legislation_search_organizations` then `legislation_find_acts_by_organization`; `legislation_search_keywords` then `legislation_find_acts_by_keyword`. Voivodeship-journal acts in search results come from an archive that is no longer updated; for what a voivodeship office publishes now, use `legislation_list_institution_publications`.
 3. For recent publications use `legislation_list_recent_acts`, optionally filtered to DU or MP.
 
 ## Read it
