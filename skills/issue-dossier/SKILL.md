@@ -18,6 +18,8 @@ Ask about the issue, period or purpose (for example a meeting or a consultation 
 5. Public debate: `public_pulse_semantic_search` and `public_pulse_search_events`.
 6. The organization's own material, when the workspace is available: `documents_hybrid_search`, then `documents_sequence_search` for passages to cite.
 
+When several results carry a `resource_uri` worth reading in full, read them together with `resources_read` (up to 100 per call; repeat the same list with `next_cursor`) instead of one call per item. Without the Research data area, use each source's own reader. If the user asks how a whole population stands on the issue, such as every statement of a sitting or every recent draft of a ministry, follow the research-studies skill.
+
 ## Deliver
 
 Use these sections, each limited to what the sources support:

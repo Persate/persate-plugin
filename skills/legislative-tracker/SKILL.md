@@ -11,6 +11,7 @@ description: Follow Polish legislation that is not yet law through every stage, 
 - Sejm prints: `legislation_search_prints`, then `legislation_get_print`. Print identifiers are term:number, for example `10:2811`. To read what a print says (the bill text and its uzasadnienie), use `legislation_read_print_text` and follow a returned `legislation://document/` URI with `corpus_read_document`.
 - Whole processes across RCL, Sejm, Senate, President, Tribunal and publication: `legislation_search_processes`, then `legislation_get_process`.
 - What ministries and the Chancellery published on their own sites (consultation notices, draft pages, reports): `legislation_list_institution_publications`.
+- Which of many recent drafts affect a sector or client: follow the research-studies skill when the user asks for an assessment of the whole set.
 
 If several matters match, list them briefly and continue with the closest one; ask only when the choice changes the answer.
 

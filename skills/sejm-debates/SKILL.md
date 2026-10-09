@@ -10,6 +10,7 @@ description: Find what was said in the Sejm, in plenary sittings, committee meet
 - A statement or argument: `speeches_search` returns speaker-attributed passages with `recording_unid`, `start_sec` and a `recordings://speech/...` resource URI. Filter by speaker or recording when known.
 - A sitting or meeting: `recordings_search_catalog` (every recording, analyzed or not) or `recordings_list_analyzed` (completed analyses with speaker rosters), then `recordings_get_recording` for its details.
 - Committee context and agendas: `legislation_committee_sittings`.
+- How every statement of a sitting, or of a club's MPs, treats a subject: follow the research-studies skill when the user asks for that assessment.
 
 ## Read it
 

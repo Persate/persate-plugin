@@ -18,9 +18,10 @@ Access is the intersection of the data areas (toolsets) the organization enabled
 | Alerts | the user's alerts and their matches; creating and editing alerts |
 | Workspace | documents visible to the user, preferences, notifications |
 | Labs | research Labs assigned to the organization |
+| Research | cohort studies over public sources (`analysis_start`, `analysis_status`, `analysis_results`, `analysis_read`, `analysis_cancel`) and `resources_read`, which reads many returned `resource_uri` values in one call |
 | Administration | members, groups and invitations, for administrators only |
 
-Changes need write consent (`mcp:write`) and an organization set to read and write. A connection approved as read-only, or before a toolset was enabled, must be reconnected to gain the new access.
+Changes need write consent (`mcp:write`) and an organization set to read and write; so does starting or cancelling a study, which also needs assessments enabled for the organization. A connection approved as read-only, or before a toolset was enabled, must be reconnected to gain the new access.
 
 ## Steps
 

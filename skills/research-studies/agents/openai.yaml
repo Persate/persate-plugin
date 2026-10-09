@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research studies"
+  short_description: "Assess many posts, statements or drafts"
+  default_prompt: "How did MPs of each club speak about the housing programme at the last Sejm sitting?"

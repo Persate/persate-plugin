@@ -12,6 +12,7 @@ Persate follows the X accounts of selected public figures and institutions. It i
 - Exact wording: `public_pulse_search_tweets`. Paraphrases and concepts: `public_pulse_semantic_search`.
 - One account: `public_pulse_recent_tweets` (by handle or name) and `public_pulse_stakeholder_activity` (a summary of recent hours).
 - Deleted posts: `public_pulse_deleted_tweets` lists confirmed deletions; a fresh post can still be `deletion_suspected` in `public_pulse_recent_tweets`.
+- How every post in a period treats a subject (for example which were negative): follow the research-studies skill when the user asks for that assessment.
 
 ## Topics, events and trends
 

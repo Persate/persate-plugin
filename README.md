@@ -1,6 +1,6 @@
 # Persate
 
-Connect your Persate account to research Polish legislation, parliamentary activity, public affairs, media and your accessible workspace documents. Persate returns source references for evidence-based answers. Depending on your organization's settings, the connection can also read Labs, manage alerts and preferences, and perform workspace administration with an administrator account.
+Connect your Persate account to research Polish legislation, parliamentary activity, public affairs, media and your accessible workspace documents. Persate returns source references for evidence-based answers. Depending on your organization's settings, the connection can also run cohort studies, read Labs, manage alerts and preferences, and perform workspace administration with an administrator account.
 
 ![Persate](assets/logo.svg)
 
@@ -24,6 +24,7 @@ For manual setup, add this URL in your app's remote MCP settings. [Connection gu
 | `media-pulse` | follow public figures' posts on X, topics, events and deletions |
 | `daily-briefing` | summarize a day or week in Polish politics and law, with your alert matches |
 | `issue-dossier` | prepare a source-backed brief on a policy issue |
+| `research-studies` | assess every statement, post, draft or recording in a defined set against the same questions |
 | `alerts` | review alert matches and create, edit, pause or delete alerts |
 | `workspace-documents` | search, read and quote your organization's files |
 | `labs-research` | explore the research Labs assigned to your organization |
@@ -36,13 +37,14 @@ For manual setup, add this URL in your app's remote MCP settings. [Connection gu
 - Where is the government's draft on renewable energy in the legislative process?
 - How did the parliamentary clubs vote on energy price bills in this Sejm term?
 - Prepare an issue brief on the regulation of short-term rentals in Poland.
+- How did MPs of each club speak about the housing programme at the last Sejm sitting?
 - Summarize recent events from my Persate alerts.
 - Change my Persate interface language to Polish.
 
-The available tools depend on your account and organization. This plugin cannot grant additional permissions, change account-security settings, delete files or run paid enrichment. Confirm destructive actions before execution.
+The available tools depend on your account and organization. This plugin cannot grant additional permissions, change account-security settings or delete files. Cohort studies start only when you ask for one, and every assessment is recorded against your organization. Confirm destructive actions before execution.
 
 ## Data and support
 
-Tool arguments are sent to Persate's API. The returned data is then processed by the AI app you connected under that app's policies. The package itself has no local database, telemetry, hooks or background jobs. Persate's existing account, access controls, audit and retention policies apply to the service. Disconnect an app in Persate Settings → MCP & AI apps to revoke its access.
+Tool arguments are sent to Persate's API. The returned data is then processed by the AI app you connected under that app's policies. When you start a cohort study, its questions and context are sent with the public source passages to Persate's assessment model provider. The package itself has no local database, telemetry, hooks or background jobs. Persate's existing account, access controls, audit and retention policies apply to the service. Disconnect an app in Persate Settings → MCP & AI apps to revoke its access.
 
 [Support](https://persate.com/faq) · [Privacy](https://persate.com/documents/privacy-policy) · [Terms](https://persate.com/documents/terms-of-service)
